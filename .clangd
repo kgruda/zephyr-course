@@ -1,0 +1,12 @@
+CompileFlags:
+  CompilationDatabase: build/
+  Add: [-xc]
+  Remove:
+    - -mlongcalls
+    - -fno-pic
+    - -fstrict-volatile-bitfields
+    - --param=min-pagesize=0
+    - -fno-defer-pop
+    - -specs=picolibc.specs
+    - -fno-reorder-functions
+    - -fcheck-new
